@@ -55,10 +55,10 @@ class AccountApproved extends Notification
 }
 ```
 
-In your notifiable model, make sure to include a routeNotificationForMobizone() method, which return the phone number.
+In your notifiable model, make sure to include a routeNotificationForMobizon() method, which return the phone number.
 
 ```php
-public function routeNotificationForMobizone()
+public function routeNotificationForMobizon()
 {
     return $this->phone;
 }
